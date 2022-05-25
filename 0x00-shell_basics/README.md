@@ -1,0 +1,1 @@
+This directory will contain the files for the tasks under the shell basics project

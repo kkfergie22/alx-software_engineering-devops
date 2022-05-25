@@ -1,0 +1,1 @@
+This repository contains the bash scripts for the 0x00 Shell basics project
