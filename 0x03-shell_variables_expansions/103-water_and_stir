@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $((($echo $((water#$WATER))) + ($echo ((stir#$STIR))))) | printf "%\n" bestchol
