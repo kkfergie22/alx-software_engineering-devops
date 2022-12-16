@@ -1,6 +1,6 @@
 # This uses puppet to create a file
 
-file { 'random file:'
+file { 'random file':
   path    => '/tmp/school',
   mode    => '0744',
   owner   => www-data,
