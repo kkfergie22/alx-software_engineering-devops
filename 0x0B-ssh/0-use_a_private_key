@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #income to server via ssh
 
-ssh -i ~/.ssh/school ubuntu@52.5.221.92
+ssh -i ~/.ssh/school ubuntu@54.160.113.91
