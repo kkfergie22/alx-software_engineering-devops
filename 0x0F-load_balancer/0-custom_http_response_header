@@ -23,5 +23,7 @@ echo "server {
    }
 }" > default
 sudo mv -f default /etc/nginx/sites-available/default
+echo "add_header X-Served-By $(hostname);
+" > /etc/nginx/nginx.conf
 sudo nginx -t && sudo nginx -s reload
 sudo service nginx restart
