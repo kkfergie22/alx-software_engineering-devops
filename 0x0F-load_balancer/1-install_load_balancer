@@ -16,7 +16,7 @@ mode http
 balance roundrobin
 option httpclose
 option forwardfor
-server 63873-web-01 52.5.221.92:80 check
+server 63873-web-01 54.160.113.91:80 check
 server 63873-web-02 3.84.158.64:80 check
 " >> /etc/haproxy/haproxy.cfg
 
