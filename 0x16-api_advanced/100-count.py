@@ -1,3 +1,20 @@
+#!/usr/bin/python3
+
+"""
+    This function retrieves the title of all hot articles from a subreddit and
+    counts the occurrences of the keywords provided in `word_list`.
+    The keyword counts are then sorted and printed in descending order
+    by count, and alphabetically for words with the same count.
+
+    Parameters:
+    subreddit (str): The subreddit to retrieve hot articles from
+    word_list (list): A list of keywords to count the occurrences of
+    after (str, optional): The `after` parameter used for
+    pagination of Reddit API results
+
+    Returns:
+    None
+"""
 import requests
 
 

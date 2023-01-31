@@ -1,5 +1,16 @@
 #!/usr/bin/python3
 
+"""
+    This function takes in a subreddit name as input and retrieves
+    the top ten hot articles from the subreddit.
+
+    Parameters:
+    subreddit (str): The subreddit to retrieve hot articles from
+
+    Returns:
+    None
+"""
+
 import requests
 
 

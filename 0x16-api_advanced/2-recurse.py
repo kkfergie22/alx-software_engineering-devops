@@ -1,4 +1,19 @@
 #!/usr/bin/python3
+
+"""
+    This function retrieves the title of all hot articles from a subreddit.
+
+    Parameters:
+    subreddit (str): The subreddit to retrieve hot articles from.
+    after (str, optional): The 'after' parameter used for pagination of
+    Reddit API results.
+    hot_list (list, optional): A list to store the titles of the hot articles.
+
+    Returns:
+    list: A list of the titles of the hot articles from the subreddit.
+    None: If the status code is not 200.
+
+"""
 import requests
 
 

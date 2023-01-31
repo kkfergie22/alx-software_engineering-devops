@@ -1,4 +1,15 @@
 #!/usr/bin/python3
+
+"""
+    This function retrieves the number of subscribers of a given subreddit.
+
+    Parameters:
+    subreddit (str): The subreddit to retrieve the number of subscribers for
+
+    Returns:
+    int: The number of subscribers of the subreddit. If the subreddit does not
+    exist or there is a problem with the request, returns 0.
+"""
 import requests
 
 
