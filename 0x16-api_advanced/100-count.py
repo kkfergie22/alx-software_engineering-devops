@@ -35,7 +35,7 @@ def count_words(subreddit, word_list, after=None):
     None
     """
 
-    url = f"https://www.reddit.com/r/{subreddit}/hot.json"
+    url = "https://www.reddit.com/r/" + subreddit + "/hot.json"
     params = {"limit": 100}
     if after:
         params["after"] = after

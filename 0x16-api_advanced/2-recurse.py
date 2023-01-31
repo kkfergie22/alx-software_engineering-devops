@@ -43,7 +43,7 @@ def recurse(subreddit, after=None, hot_list=[]):
         params['after'] = after
 
     response = requests.get(
-        f'https://www.reddit.com/r/{subreddit}/hot.json', headers=headers,
+        "https://www.reddit.com/r/" + subreddit + "/hot.json", headers=headers,
         params=params)
 
     if response.status_code == 200:
